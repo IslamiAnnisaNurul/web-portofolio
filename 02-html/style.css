@@ -1,0 +1,90 @@
+body {
+  font-family: 'Fasthand';
+  font-size: 26px;
+  background: url(https://c1.wallpaperflare.com/preview/127/182/407/grocery-store-supermarket-vegetable-shop.jpg) fixed no-repeat;
+  background-size: cover;
+}
+
+#whiteBox {
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 30%;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+#colorBg {
+  background-color: rgba(240, 243, 53, 0.8);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(2, 1, 0);
+  margin: 0%;
+}
+
+#cart {
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+#inputText {
+  display: flex;
+  margin-top: 10%;
+}
+
+#userInput {
+  width: 50%
+  height: 25px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  cursor: pointer; 
+}
+
+li {
+  margin: auto;
+  cursor: pointer;
+}
+
+#enterItems {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px 5px;
+  background-color: #ee9228;
+  color: rgb(46,38,18);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 5px;
+  margin-left: 20px;
+  background-color: #ee9228;
+  color: rgb(46,38,18);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+@media (max-width: 840px) {
+  body {
+    font-size: 1.2em;
+  }
+  
+  #boxWhite {
+    width: 50%;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+  }
+}
